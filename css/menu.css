@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+#menu {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.opcion {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.opcion:hover {
+    transform: scale(1.1);
+    background-color: #2980b9;
+}
+
+.opcion a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#nombre {
+    margin: 5;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
